@@ -14,7 +14,7 @@ function slideShow(){
 
     let count = -1;
 
-    function showSlide() {
+    (function showSlide() {
 
         if(count >= pic.length-1){
             count = -1;
@@ -25,9 +25,9 @@ function slideShow(){
         img.setAttribute("src",pic[count]); // On change l'attribut src de la balise img
 
         setTimeout(showSlide,2000) // Tous les 2 secs
-    }
+    })()
 
-    showSlide()
+ 
 
 }
 
