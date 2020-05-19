@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+    flex-direction: column;
+}
+
+#slider-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+#slide{
+    width: 650px;
+    height: 500px;
+}
+
+.text{
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 100%;
+}
